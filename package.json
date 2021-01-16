@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel-node app.js init && babel-node app.js github"
+    "start": "babel-node app.js init && babel-node app.js github && babel-node app.js create_repo"
   },
   "author": "Morol",
   "license": "ISC",
