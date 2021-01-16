@@ -1,0 +1,26 @@
+{
+  "name": "git-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node app.js init && babel-node app.js github"
+  },
+  "author": "Morol",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^18.0.12",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.1",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "lodash": "^4.17.20",
+    "minimist": "^1.2.5",
+    "simple-git": "^2.31.0"
+  }
+}
