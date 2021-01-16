@@ -16,7 +16,9 @@ myApp
   .description('Init Morol CLI')
   .action(() => {
     clear();
-    console.log(chalk.green(figlet.textSync('Morol CLI', { horizontalLayout: 'full' })));
+    console.log(chalk.green(figlet.textSync('Morol CLI', {
+      horizontalLayout: 'full'
+    })));
   });
 
 myApp
